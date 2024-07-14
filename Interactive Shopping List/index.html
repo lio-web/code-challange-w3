@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping list</title>
+</head>
+<body>
+    <div class="container">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn5b1Te8CIgzW_Aq1ZpLKC6GJKfqgjBwn-8g&s" alt="a shopping cart">
+   <input type="text" id="input-field" placeholder="ITEMS">
+   <div id="action-button">
+    <button id="add-button">ADD</button>
+    <button id="mark-button">mark purchased</button>
+    <button id="clear-button">Clear List</button>
+   </div>
+   <p id="empty-list" style="display:block;"><b>List is empty</b></p>
+   <ul id="shopping-list"></ul>
+   <div id="toast-container"></div>
+    </div>
+    <script src="app.js" type="module"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
